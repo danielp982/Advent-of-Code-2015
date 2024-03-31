@@ -13,7 +13,7 @@ enum AoC_Error: Error {
 }
 
 // TO UPDATE PER RUN
-let day = 2
+let day = 3
 let p1 = false
 
 do {
@@ -29,6 +29,8 @@ do {
         result = p1 ? Day_1.p1(input: input) : Day_1.p2(input: input)
     case 2:
         result = Day_2.p(input: input, p1: p1)
+    case 3:
+        result = p1 ? try Day_3.p1(input: input) : try Day_3.p2(input: input)
     default:
         throw AoC_Error.invalid_day(day: day)
     }

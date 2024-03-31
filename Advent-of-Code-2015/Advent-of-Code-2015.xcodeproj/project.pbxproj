@@ -13,6 +13,8 @@
 		652E9F652BB542170036441B /* Day_1_Input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 652E9F642BB542010036441B /* Day_1_Input.txt */; };
 		652E9F672BB547DC0036441B /* Day_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E9F662BB547DC0036441B /* Day_2.swift */; };
 		652E9F692BB548340036441B /* Day_2_Input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 652E9F682BB5481A0036441B /* Day_2_Input.txt */; };
+		65BAFE4B2BB931810054C7C3 /* Day_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BAFE4A2BB931810054C7C3 /* Day_3.swift */; };
+		65BAFE4C2BB934E40054C7C3 /* Day_3_Input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65BAFE492BB931740054C7C3 /* Day_3_Input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +24,7 @@
 			dstPath = Inputs;
 			dstSubfolderSpec = 7;
 			files = (
+				65BAFE4C2BB934E40054C7C3 /* Day_3_Input.txt in CopyFiles */,
 				652E9F692BB548340036441B /* Day_2_Input.txt in CopyFiles */,
 				652E9F652BB542170036441B /* Day_1_Input.txt in CopyFiles */,
 			);
@@ -37,6 +40,8 @@
 		652E9F642BB542010036441B /* Day_1_Input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day_1_Input.txt; sourceTree = "<group>"; };
 		652E9F662BB547DC0036441B /* Day_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_2.swift; sourceTree = "<group>"; };
 		652E9F682BB5481A0036441B /* Day_2_Input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day_2_Input.txt; sourceTree = "<group>"; };
+		65BAFE492BB931740054C7C3 /* Day_3_Input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Day_3_Input.txt; sourceTree = "<group>"; };
+		65BAFE4A2BB931810054C7C3 /* Day_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,7 @@
 			children = (
 				652E9F622BB5414A0036441B /* Day_1.swift */,
 				652E9F662BB547DC0036441B /* Day_2.swift */,
+				65BAFE4A2BB931810054C7C3 /* Day_3.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -91,6 +97,7 @@
 			children = (
 				652E9F642BB542010036441B /* Day_1_Input.txt */,
 				652E9F682BB5481A0036441B /* Day_2_Input.txt */,
+				65BAFE492BB931740054C7C3 /* Day_3_Input.txt */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 			files = (
 				652E9F582BB53FB00036441B /* main.swift in Sources */,
 				652E9F672BB547DC0036441B /* Day_2.swift in Sources */,
+				65BAFE4B2BB931810054C7C3 /* Day_3.swift in Sources */,
 				652E9F5F2BB540390036441B /* InputReader.swift in Sources */,
 				652E9F632BB5414A0036441B /* Day_1.swift in Sources */,
 			);
