@@ -13,8 +13,8 @@ enum AoC_Error: Error {
 }
 
 // TO UPDATE PER RUN
-let day = 3
-let p1 = false
+let day = 4
+let p1 = true
 
 do {
     let input = try InputReader.readFile(day: day)
@@ -31,6 +31,8 @@ do {
         result = Day_2.p(input: input, p1: p1)
     case 3:
         result = p1 ? try Day_3.p1(input: input) : try Day_3.p2(input: input)
+    case 4:
+        result = Day_4.p(input: input, p1: p1)
     default:
         throw AoC_Error.invalid_day(day: day)
     }
